@@ -8,7 +8,7 @@ authors = ["booyaa <booyaabooyaabooyaa@gmail.com>"]
 sdl2 = { version = "0.29", default-features = false, features = ["image", "mixer"] }
 # as does v.31 (current)
 # sdl2 = { version = "0.31", default-features = false, features = ["mixer"] }
-gate = "0.2.1"
+gate = { git = "https://github.com/booyaa/gate.git" }
 
 [build-dependencies]
 gate_build = "0.2.1"
